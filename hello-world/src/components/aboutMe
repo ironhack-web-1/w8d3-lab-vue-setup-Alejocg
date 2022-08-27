@@ -1,0 +1,15 @@
+<template>
+  <div>
+    <input type="checkbox" id="todo-item" />
+    <label for="todo-item">My Todo Item</label>
+  </div>
+</template>
+
+import aboutMe from 'hello-world\src\components\aboutMe.vue';
+
+export default {
+  name: 'app',
+  components: {
+    aboutMe
+  }
+};
